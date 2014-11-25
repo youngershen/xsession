@@ -5,19 +5,24 @@
 # email  : younger.x.shen@gmail.com
 
 """
-    xsession.backend.file
+    xsession.backend.base
     ~~~~~~~~~~~~~~~~
 
-    file backend to xsession
+    base backend to xsession
 
     :copyright: (c) 2014 by younger shen
     :license: GPL, see LICENSE for more details
     :website: https://github.com/youngershen/xsession
 """
 
-class FileBackend(object):
 
-    def __init__(self, config):
-        self.config = config
+class BaseBackend(object):
 
+    def set(session):
+        pass
 
+    def get(sessionid):
+        pass
+
+    def clear():
+        pass
