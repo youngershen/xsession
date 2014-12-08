@@ -50,7 +50,7 @@ class Manager(object):
         pass
 
     def init_file_backend(self):
-        self.backend = __import__('backend.file').file.FileBackend()
+        self.backend = __import__('backend.file').file.FileBackend('')
         self.backend.test()
           
 

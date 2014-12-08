@@ -55,7 +55,7 @@ class Session(object):
         return self.__unicode__()
 
 def main():
-    raise KeyAlreadyExistsError('sf')
+    raise KeyAlreadyExistsError('sf', '')
     print "test"
 
 

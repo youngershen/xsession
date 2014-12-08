@@ -20,4 +20,6 @@ class FileBackend(object):
     def __init__(self, config):
         self.config = config
 
+    def test(self):
+        print "test from filebacnend"
 
